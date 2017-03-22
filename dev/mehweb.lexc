@@ -1,0 +1,44 @@
+Multichar_Symbols
+
+%<n%>
+
+%<erg%>
+%<abs%>
+
+%{т%}
+
+%>
+
+LEXICON Root
+
+Nouns ; 
+
+LEXICON CASE 
+
+%<abs%>: # ;
+%<erg%>:%>ни # ;
+
+LEXICON N-DUBURA 
+
+%<sg%>: CASE ; 
+%<pl%>:%>%{т%} CASE ; 
+
+LEXICON N-UQNA
+
+%<sg%>: CASE ; 
+%<pl%>:%>р CASE ; 
+
+LEXICON N-ADAJ
+
+%<sg%>: CASE ; 
+%<pl%>:%>хъалэ CASE ;
+
+LEXICON Nouns 
+
+дубура:дубура N-DUBURA ;  ! ""
+бургьала:бургьала N-DUBURA ;  ! "" 
+устар:устар N-DUBURA ;  ! ""
+гӏабул:гӏабул N-DUBURA ; ! "лошадь"
+ухъна:ухъна N-UQNA ; ! "старик"
+адай:адай N-ADAJ ; ! "папа"
+замари:замари N-DUBURA ; 

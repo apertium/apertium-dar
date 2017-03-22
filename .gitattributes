@@ -1,0 +1,4 @@
+* text=auto !eol
+dev/Makefile -text
+dev/mehweb.lexc -text
+dev/mehweb.twol -text
