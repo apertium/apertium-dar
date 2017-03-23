@@ -1,6 +1,24 @@
 Multichar_Symbols
 
 %<n%>
+%<prn%>
+%<adv%>
+%<np%>
+
+%<pers%>
+
+%<ant%>
+
+%<m%>
+%<f%>
+%<nt%>
+
+%<p1%>
+%<p2%>
+%<p3%>
+
+%<sg%>
+%<pl%>
 
 %<erg%>
 %<abs%>
@@ -11,7 +29,9 @@ Multichar_Symbols
 
 LEXICON Root
 
+Pronouns ;
 Nouns ; 
+Adverbs ; 
 
 LEXICON CASE 
 
@@ -20,18 +40,46 @@ LEXICON CASE
 
 LEXICON N-DUBURA 
 
-%<sg%>: CASE ; 
-%<pl%>:%>%{т%} CASE ; 
+%<n%>%<sg%>: CASE ; 
+%<n%>%<pl%>:%>%{т%} CASE ; 
 
 LEXICON N-UQNA
 
-%<sg%>: CASE ; 
-%<pl%>:%>р CASE ; 
+%<n%>%<sg%>: CASE ; 
+%<n%>%<pl%>:%>р CASE ; 
 
 LEXICON N-ADAJ
 
-%<sg%>: CASE ; 
-%<pl%>:%>хъалэ CASE ;
+%<n%>%<sg%>: CASE ; 
+%<n%>%<pl%>:%>хъалэ CASE ;
+
+LEXICON NP-ANT-M 
+
+%<np%>%<ant%>%<m%>%<sg%>: CASE ;
+
+LEXICON PRON-PERS-NU
+
+%<prn%>%<pers%>%<p1%>%<sg%>%<abs%>:у # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<erg%>:уни # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:аб # ;
+
+LEXICON PRON-PERS-ĦU
+
+%<prn%>%<pers%>%<p2%>%<sg%>%<abs%>:у # ;
+!%<prn%>%<pers%>%<p2%>%<sg%>%<erg%>:уни # ;
+!%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:аб # ;
+
+
+LEXICON ADV
+
+%<adv%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Pronouns 
+
+ну:н PRON-PERS-NU ; ! "я"
+хӏу:хӏ PRON-PERS-ĦU ; ! "ты"
 
 LEXICON Nouns 
 
@@ -41,4 +89,13 @@ LEXICON Nouns
 гӏабул:гӏабул N-DUBURA ; ! "лошадь"
 ухъна:ухъна N-UQNA ; ! "старик"
 адай:адай N-ADAJ ; ! "папа"
+абай:абай N-ADAJ ; ! "мама"
 замари:замари N-DUBURA ; 
+
+LEXICON ProperNouns 
+
+ГӀaли:ГӀaли NP-ANT-M ; ! ""
+
+LEXICON Adverbs 
+
+гьанна:гьанна ADV ; ! "сейчас"

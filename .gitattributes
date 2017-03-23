@@ -1,4 +1,8 @@
 * text=auto !eol
 dev/Makefile -text
+dev/dar-feats.tsv -text
+dev/igt-to-conllu.py -text
+dev/leipzig.tsv -text
 dev/mehweb.lexc -text
 dev/mehweb.twol -text
+dev/orthog.tsv -text
