@@ -3,6 +3,8 @@ Alphabet
   а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ
   А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я ӏ
 
+  %{и%}:0 %{и%}:и
+  %{а%}:0 %{а%}:а
   %{т%}:т 
 
   %>:0 ;
@@ -33,6 +35,17 @@ Vx:0 <=> _ %>: %{т%}: ;
 а:у <=> Cns _ [ Cns Vow: ] %>: %{т%}: ; 
 
 !@ б:б у:у р:р г:г ь:ь а:у л:л а:0 >:0 {т}:т
+
+! 2) One-syllable words form the plural stem by attaching the morpheme -a-.
+
+"Attach morpheme -а- after monosyllabic stem"
+%{а%}:а <=> .#. Cns Vow Cns+ %>: _ ; 
+
+!@ к:к у:у н:н г:г > {а}:а н:н е:е 
+
+"Remove oblique -и- after vowel"
+%{и%}:0 <=> Vow %>: _ ; 
+
 
 !дубура<pl><abs>:дубура>{т}
 !устар<pl><abs>:устар>{т}

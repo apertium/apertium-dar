@@ -143,6 +143,10 @@ def apertium_convert(analyses, s): #{
 	for analysis in analyses: #{
 
 		loca = analysis[0].replace('><','|').replace('<','|').replace('>','').replace('@_EPSILON_SYMBOL_@', '');
+		if '+' in loca: #{
+			# Do something better here
+			loca = loca.split('+')[0]; 
+		#}
 		lema = loca.split('|')[0];
 		pos = loca.split('|')[1];
 		feats = loca.split('|')[2:]

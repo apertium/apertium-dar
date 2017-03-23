@@ -19,6 +19,7 @@ _	_	comp	_	_	Degree=Cmp
 _	_	coop	_	_	Voice=Coop
 _	_	dat	_	_	Case=Dat
 _	prn	def	_	PRON	PronType=Tot
+_	prn	resm	_	PRON	PronType=Rsm
 _	_	def	_	_	Definite=Def
 _	_	dem	_	_	PronType=Dem
 _	_	evid	_	_	Evident=Fh
@@ -101,6 +102,7 @@ _	cnjsub	_	_	SCONJ	_
 _	cop	_	_	AUX	_
 _	det	_	_	DET	_
 _	emph	_	_	PART	_
+_	asrt	_	_	PART	_
 _	guio	_	_	PUNCT	_
 _	ij	_	_	INTJ	_
 _	lpar	_	_	PUNCT	_
