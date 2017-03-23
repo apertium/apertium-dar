@@ -23,6 +23,7 @@ _	_	ACC 	_	_	Case=Acc	#accusative
 _	_	ADJ 	_	ADJ	_	#adjective
 _	_	ADV 	_	ADV	_	#adverb(ial)
 _	_	AGR 	_	_	_	#agreement
+_	_	ATR	_	_	_	#
 _	_	ALL 	_	_	Case=All	#allative
 _	_	ANTIP 	_	_	_	#antipassive
 _	_	APPL 	_	_	_	#applicative

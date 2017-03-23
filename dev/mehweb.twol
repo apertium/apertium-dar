@@ -6,6 +6,7 @@ Alphabet
   %{и%}:0 %{и%}:и
   %{а%}:0 %{а%}:а
   %{т%}:т 
+  %{б%}:б
 
   %>:0 ;
 
@@ -26,7 +27,7 @@ Rules
 ! changes to [u] 16 .
 
 "Final stem vowel deletion with plural in -{т}"
-Vx:0 <=> _ %>: %{т%}: ; 
+Vx:0 <=> _ %>: [ %{т%}: | %{б%}: ]  ; 
      where Vx in VowSimple ; 
 
 !@ д:д у:у б:б у:у р:р а:0 >:0 {т}:т

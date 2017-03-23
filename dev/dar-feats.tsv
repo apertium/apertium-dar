@@ -9,7 +9,6 @@ _	_	aor	_	_	VerbForm=Fin|Mood=Ind|Tense=Aor
 _	_	attr	_	_	Case=Nom
 _	_	cog	_	_	_
 _	prn	dem|qnt	_	PRON	PronType=Dem
-_	num	_	_	NUM	NumType=Ord
 _	num	coll|subst	_	NUM	NumType=Coll
 _	num	coll	_	NUM	NumType=Coll
 _	prn	coll	_	PRON	PronType=Coll
@@ -56,7 +55,6 @@ _	_	m	_	_	Gender=Masc
 _	_	neg	_	_	Polarity=Neg
 _	_	nom	_	_	Case=Nom
 _	_	opt	_	_	VerbForm=Fin|Mood=Opt
-_	num	ord	_	NUM	NumType=Ord
 _	num	ord	_	NUM	NumType=Ord
 _	_	ord	_	_	NumType=Ord
 _	_	org	_	_	_

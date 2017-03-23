@@ -3,6 +3,7 @@ Multichar_Symbols
 %<n%>
 %<prn%>
 %<adv%>
+%<num%>
 %<det%>
 %<np%>
 
@@ -30,6 +31,7 @@ Multichar_Symbols
 
 %{и%}
 %{т%}
+%{б%}
 %{а%}
 
 %>
@@ -42,6 +44,7 @@ LEXICON Root
 Miscellaneous ;
 Pronouns ;
 Determiners ;
+Numerals ;
 Nouns ; 
 ProperNouns ;
 Adverbs ; 
@@ -68,6 +71,11 @@ LEXICON N-UQNA
 %<n%>%<sg%>: CASE ; 
 %<n%>%<pl%>:%>р CASE ; 
 
+LEXICON N-URŠI
+
+%<n%>%<sg%>: CASE ; 
+%<n%>%<pl%>:%>%{б%}е CASE ; 
+
 LEXICON N-ADAJ
 
 %<n%>%<sg%>: CASE ; 
@@ -82,6 +90,11 @@ LEXICON N-KUNG
 
 %<n%>%<sg%>: CASE ; 
 %<n%>%<pl%>:%>%{а%}не CASE ; 
+
+LEXICON N-MAŠINKA
+
+%<n%>%<sg%>%<abs%>: # ; 
+%<n%>%<sg%>%<erg%>:%>ли%>ни # ; 
 
 LEXICON N-UNCLASSIFIED 
 
@@ -106,6 +119,11 @@ LEXICON PRON-PERS-ĦU
 LEXICON PRON-RESM-ČU
 
 %<prn%>%<resm%>%<pl%>%<dat%>:с # ;
+
+LEXICON NUM 
+
+%<num%>: # ;
+%<num%>%<attr%>:%>ли # ;
 
 LEXICON DET-DEM 
 
@@ -132,6 +150,10 @@ LEXICON Determiners
 
 гьэш:гьэш DET-DEM ; ! ""
 
+LEXICON Numerals 
+
+цай:цай NUM ; ! ""
+
 LEXICON Nouns 
 
 дубура:дубура N-DUBURA ;  ! ""
@@ -146,6 +168,10 @@ LEXICON Nouns
 ул:ул N-UL ; ! "ребёнок"
 
 кунг:кунг N-KUNG ; ! "книга"
+
+урши:урши N-URŠI ; ! "сын, мальчик"
+
+машинка:машинка N-MAŠINKA ; ! ""
 
 муцӏур:муцӏур N-UNCLASSIFIED ; ! ""
 
