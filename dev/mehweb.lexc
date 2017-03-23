@@ -3,6 +3,7 @@ Multichar_Symbols
 %<n%>
 %<prn%>
 %<adv%>
+%<det%>
 %<np%>
 
 %<asrt%>
@@ -40,6 +41,7 @@ LEXICON Root
 
 Miscellaneous ;
 Pronouns ;
+Determiners ;
 Nouns ; 
 ProperNouns ;
 Adverbs ; 
@@ -105,6 +107,10 @@ LEXICON PRON-RESM-ČU
 
 %<prn%>%<resm%>%<pl%>%<dat%>:с # ;
 
+LEXICON DET-DEM 
+
+%<det%>%<dem%>: # ;
+
 LEXICON ADV
 
 %<adv%>: # ;
@@ -121,6 +127,10 @@ LEXICON Pronouns
 хӏу:хӏ PRON-PERS-ĦU ; ! "ты"
 
 чу:чу PRON-RESM-ČU ; ! ""
+
+LEXICON Determiners 
+
+гьэш:гьэш DET-DEM ; ! ""
 
 LEXICON Nouns 
 

@@ -131,6 +131,11 @@ def generic_convert(lema, xpos, feat, s): #{
 		#}
 	#}
 
+	u_feat_s = list(set(u_feat.split('|')));
+	u_feat_s.sort(key=str.lower);
+	u_feat = '|'.join(u_feat_s);
+
+
 	if u_feat == '': #{
 		u_feat = '_';
 	#}
@@ -170,7 +175,7 @@ def best_analysis(sparse, analyses): #{
 		intersect = set_a.intersection(set_s);
 		if len(intersect) >= maxoverlap: #{
 			maxoverlap = len(intersect);
-			best_analysis = analysis;	
+			best_analysis = analysis;
 		#}
 		
 	#}

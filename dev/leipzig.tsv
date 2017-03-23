@@ -1,5 +1,7 @@
 _	_	IPFV|CVB	_	_	VerbForm=Conv|Aspect=Impf	# imperfective converb
 _	_	PF|HAB	_	_	Aspect=Perf|Tense=Hab	# perfective habitual
+_	_	PFV|ATR	_	_	VerbForm=Part|Aspect=Perf	# perfective attributive
+_	_	PFV|NMLZ	_	_	VerbForm=Ger|Aspect=Perf	# perfective nominalised
 _	_	PFV	_	_	Aspect=Perf 	# perfective
 _	_	ABSL	_	_	Case=Abs 	# absolutive
 _	_	1SG 	_	_	Number=Sing|Person=1	#first person
